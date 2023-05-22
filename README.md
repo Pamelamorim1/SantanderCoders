@@ -15,11 +15,11 @@ Visando aprimorar meus conhecimentos em programação, esse repositório tem com
 
 ### :open_file_folder: Git e Versionamento
 
-Caso queira visualizar [Link para Git e Versionamento](https://github.com/Pamelamorim1/SantanderCoders).
+Caso queira visualizar [Link para Git e Versionamento](https://github.com/Pamelamorim1/SantanderCoders/tree/main/Projeto/Git%20e%20Versionamento).
 
 ### :bookmark_tabs: HTML
 
-Caso queira visualizar [Link para HTML](https://github.com/Pamelamorim1/SantanderCoders).
+Caso queira visualizar [Link para HTML](https://github.com/Pamelamorim1/SantanderCoders/tree/main/Projeto/Html).
 
 ### :pencil: CSS
 
