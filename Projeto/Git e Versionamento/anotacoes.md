@@ -1,4 +1,4 @@
-## Anotações :
+## Anotações :heavy_check_mark:
 
 #### :pencil: Versionamento:
 
@@ -42,4 +42,4 @@ Sistema de versionamento de código, que guarda registros de versões como snaps
 
 - git checkout nomeDaBranch
 
-- git merge nomeBach
+- git merge nomeBranch
