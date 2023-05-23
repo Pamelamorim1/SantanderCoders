@@ -11,7 +11,7 @@ Programa do Santander Coders em parceria com o Ada Tech, desenvolvido para propo
 - [JavaScript](#bulb-javascript)
 
 ### :clipboard: Introdução ao Projeto
-Visando aprimorar meus conhecimentos em programação, esse repositório tem como objetivo disponibilizar todas atividades desevolvidas no projeto do Santander Coders. Sendo detalhado cada atividade desenvolvida durante essa jornada.
+Visando aprimorar meus conhecimentos em programação, esse repositório tem como objetivo disponibilizar todas atividades desenvolvidas no projeto do Santander Coders. Sendo detalhado cada atividade desenvolvida durante essa jornada.
 
 ### :open_file_folder: Git e Versionamento
 

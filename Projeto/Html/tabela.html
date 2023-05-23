@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no Html</title>
+</head>
+
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+        <section>
+            <h2>Tabela de Alunos</h2>
+            <!-- table = Construção de tabelas -->
+            <table border="1">
+                <!-- thead = Cabeçalho da tabela -->
+                <thead>
+                    <!-- tr = Linha da tabela -->
+                    <tr>
+                        <!-- th = Colunas que estão dentro do thead -->
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+                <!-- tbody = Corpo da tabela -->
+                <tbody>
+                    <tr>
+                        <!-- td = Colunas que estão dentro do tbody -->
+                        <td>Carol</td>
+                        <td>carol@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Henrique</td>
+                        <td>henrique@gmail.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Luiza</td>
+                        <td>luiza@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Tabela de Controle Financeiro</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- rowspan = Agrupar linhas e colspan = Agrupar Colunas -->
+                        <td rowspan="2">15/06/2023</td>
+                        <td colspan="2">Depesa</td>
+                        <!-- <td>Almoço</td> -->
+                        <td>R$35,00</td>
+                    </tr>
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$42.340,00</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
