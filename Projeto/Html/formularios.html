@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Html</title>
+</head>
+
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <br>
+        <!-- form = Formulário e action -->
+        <form action="" method="get">
+            <div>
+                <!-- label = Direcionamento do Texto para o input e for = para quem é a label -->
+                <label for="texto">nome:</label>
+                <!-- input = Modifica conforme atributoS, placeholder = Descrição dentro da caixa de texto, 
+                    value = Valor inicial do input que será direcionado para o nome do campo -->
+                <input type="text" id="texto" placeholder="Informe seu nome" name="texto"> <!-- value="1" -->
+            </div>
+            <div>
+                <label for="passwords">password:</label>
+                <input type="password" id="passwords" name="senha">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="Data">Data:</label>
+                <input type="date" id="Data" name="data">
+            </div>
+            <div>
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+            <div>
+                <label for="numero">Numero:</label>
+                <input type="number" id="numero" name="senha">
+            </div>
+            <div>
+                <label for="ficheiro">Ficheiro:</label>
+                <input type="file" id="ficheiro" name="ficheiro">
+            </div>
+            <div>
+                <label for="colors">Color:</label>
+                <input type="color" id="colors" name="colors">
+            </div>
+            <div>
+                <label for="ranges">Ranges:</label>
+                <input type="range" id="ranges" name="ranges" value="100" max="200" min="100">
+            </div>
+            <div>
+                <label for="passwords">checkbox:</label>
+                <input type="checkbox" id="passwords" name="senha" checked>
+            </div>
+            <div>
+                <label for="passwords">Radio:</label>
+                <input type="radio" id="passwords" name="senha">
+            </div>
+            <div>
+                <label for="redefinir">redefinir:</label>
+                <input type="reset" id="redefinir" name="redefinir">
+            </div>
+            <div>
+                <label for="passwords">Submit:</label>
+                <input type="submit" id="passwords" name="senha">
+            </div>
+            <div>
+                Select:
+                <select name="select" id="select"> 
+                    <option value="selecionar" disabled selected>Selecione uma das opções</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">transferência</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="textarea">Texto Longo:</label> <br>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+
+    </main>
+</body>
+
+</html>
