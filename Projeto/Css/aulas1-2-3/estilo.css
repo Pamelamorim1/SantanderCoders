@@ -1,0 +1,50 @@
+/* CTRL + Barra de espaço */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+/* vw e vh = tamanho de propriedades */
+h1 {
+    color: #e00;
+    font-size: 5.6rem;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: overline;
+    text-transform: initial;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    text-indent: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+a {
+    font-size: 1.6rem;
+    color: brown;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: coral;
+}
+
+.back {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1684324500031-65fc8dcd4156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*fixar imagem ao descer*/
+}
