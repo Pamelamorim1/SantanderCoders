@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table,
+ol,
+ul {
+    /* display: none; */
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 2rem;   
+}
+nav {
+    background-color: coral;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+}
+
+main {
+    padding-top: 7rem;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table tr th {
+    background-color: cadetblue;
+    color: white;
+}
+
+/* tr:first-child = Caso queira colocar estilização em uma linha*/
+
+table tr:nth-child(2n) td {
+    background-color: rgb(224, 223, 223);
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: collapse;
+}
+
+/* list-style: ; */
+ul,
+ol {
+    padding-left: 2.4rem;
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+h2 {
+    background-color: brown;
+    position: sticky;
+    top: 6rem;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 4px solid red;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.box:nth-child(1) {
+    position: absolute;
+    top: 40rem;
+    left: 60rem;
+
+}
+
+/* Flex e flex-wrap */
+
+img {
+    height: 300px;
+    object-fit: cover;
+    /* margin: 5px; */
+    border-radius: 15px;
+}
