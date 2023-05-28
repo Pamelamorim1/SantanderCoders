@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-table,
-ol,
-ul {
-    /* display: none; */
-}
-
 :root {
     font-size: 62.5%;
 }
