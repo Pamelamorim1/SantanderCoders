@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+.box {
+    background-color: blue;
+    height:140px;
+    width: 200px;
+    border: 10px solid red;
+    color: white;
+    text-align: center;
+}
+
+.boxes {
+    height: calc(100vh);
+    position: relative;
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 4fr repeat(1, 1fr);
+    /* grid-template-rows: 1fr 2fr; */
+
+    gap: 2rem 2rem;
+}
+
+/* 
+Explicação sobre diplay - Grid
+footer {
+    grid-area: footer;
+}
+
+@media screen and (min-width: 1024){
+    .page-content {
+        gap: 5rem 0;
+        display: grid;
+        grid-template-areas: 
+        ". . . . ."
+        ". title login login ."
+        ". title login login ."
+        ". title login login ."
+        ". . . . ."
+        "footer footer footer footer footer"
+        ;
+    }
+    
+} 
+*/
