@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+main {
+    padding-top: 20rem;
+}
+
+h1 {
+    /* visibility: hidden; */
+    opacity: 0.4;
+}
+
+button {
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    margin: 50px 100px;
+    padding: 0.6rem 2.4rem;
+    cursor: pointer;
+    z-index: 4;
+}
+
+[data-button="button-main"] {
+    /* visibility: hidden; */
+    transform:  scale(1);
+    transition: .2s ease-in-out;
+}
+/* tranform: rotate(20deg) translate(10rem) */
+
+[data-button="button-main"]:hover {
+    transform: scale(2.2);
+}
+
+[data-button="button-team"] {
+    animation: pulse 2s infinite;
+    transform:  scale(2);
+    transition: .2s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3)
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+div {
+    height: 80px;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-spinner {
+    margin: 20px;
+    animation: load 1.5s infinite;
+}
+
+@keyframes load {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform: rotateZ(120deg);
+    }
+    /* 75% {
+        transform: rotate(180deg);
+    } */
+    100% {
+        transform: rotateZ(360deg);
+
+    }
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: collapse;
+    height: auto;
+    width: auto;
+}
+
+table tr th {
+    background-color: cadetblue;
+    color: white;
+}
+
+tr, td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* tr:first-child = Caso queira colocar estilização em uma linha*/
+table tr:nth-child(2n) td {
+    background-color: rgb(224, 223, 223);
+}
+
+[data-coluna1="title"] {
+    background-color: brown;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    /* margin: 5px; */
+    border-radius: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+@media  screen and (min-width: 1000px) {
+    img {
+        height: 200px;
+    }
+}
+
+@media print {
+    img {
+        /* display: none; */
+        color: white;
+    }
+}
+
+
